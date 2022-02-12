@@ -1,26 +1,31 @@
 <html>
 <head>
+  <link href="styles/detail.css" rel="stylesheet" />
+  
 <title>Detail</title>
 </head>
 <body>
- <div class="header">
-  <a href="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\index.html" target="_self">
-    
-<div><img src="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\assests\images\logo.png" alt="logo" width="150" height="200"/></a>
-</div>
-<div style="padding-left:200px">
-  <a class="active" href="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\login.html" target="_blank">Login</a>
+  <div id="wrapper">
+    <div id="header">
+  
+
+  
+    <img src="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\assests\images\logo.png"  class="navbar" /></div>
+    <div class="nav-links">
+      <a href="login.html"><span>Login</span></a>
   </div>
-
-<div class="content">
-
-<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></div>
+     <div id="content">
+  
+ <a href="payment.html">
+<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="detail"></a>
 <div><form action="payment.html" method="get">
-  <label for="Username">Username:</label>
+  <label for="Adults">Adults :</label>
+  <input type="number" id="Adults" name="Adults" min="1" max="10"><br>
 
-    
-        <input type="Username" name="Username" id="Enter Username">
-  <label for="from date">From Date:</label>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br>
+  
+   <label for="from date">From Date:</label>
   <input type="date" id="from date" name="from date"><br>
   <label for="To date">To Date:</label>
   <input type="date" id="To date" name="to date"><br>
@@ -44,26 +49,23 @@
  <div> <p>When it comes to descriptions, evocative and compelling stories are important however, accuracy is equally important. <br>This is important to manage booker expectations when it comes to their experience at our hotel</p></div>
   
 
+ <footer id="footer">
+    
+  <a class="active" href="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\contact.html" target="_blank">Contact Us</a><br>
 
-  <div class="footer">
-    <div><a class="active" href="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\contact.html" target="_blank">Contact Us</a><br>
+<a href= "https://www.facebook.com" target="_blank">
+<img src="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\assests\images\facebook.png" id="social-media-icon" />
+</a>
+<a href="https://www.instagram.com" target="_blank">
+<img src="assests/images/instagram.png " id="social-media-icon1"/>
+</a>
+<a href = "https://twitter.com"  target="_blank">
+<img src="assests/images/twitter.png " id="social-media-icon2" />
+
+</a> <br>    
+<span>&copy; 2020 ROOM SEARCH PVT.LTD.</span>
+
         
-        
-      <a href= "https://www.facebook.com" target="_blank">
-        <img src="C:\Users\WELCOME\Desktop\HOTEL\Hotel_Booking_Website\assests\images\facebook.png" alt="logo" width="20" height="22">
-      </a>
-      <a href="https://www.instagram.com" target="_blank">
-     <img src="assests/images/instagram.png " alt="logo" width="20" height="22"/>
-     </a>
-     <a href = "https://twitter.com"  target="_blank">
-      <img src="assests/images/twitter.png " alt="logo" width="20" height="22"/>
-      </a>
-    </div>
-         
-        
-      <div>  
-  
-      <p>&copy; 2020 ROOM SEARCH PVT.LTD.</p>
-    </div>
+      
   </body>
 </html>
