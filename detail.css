@@ -1,0 +1,23 @@
+#wraper{
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid black;
+}
+.navbar{
+    height: 60px;
+    width: 60px;
+}
+.nav-links{
+    padding-left: 100px;
+}
+#header{width: auto;
+    
+}
+#detail{
+    height: 500px;
+    width: 500px;
+}
+#social-media-icon,#social-media-icon1,#social-media-icon2{
+    height: 20px;
+    width: 22px;
+}
