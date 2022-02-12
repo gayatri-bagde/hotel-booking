@@ -1,0 +1,92 @@
+    .header{
+        margin-bottom: 0px;
+        padding: 0px;
+        width: 1400px;
+        background-color: rosybrown;
+
+        
+    
+    }
+    #content{
+        width: 1400px;
+        
+        height: 600px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
+    }    
+   .search{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+ 
+    height: 380px;
+    background-position: center align; 
+   background-repeat: no-repeat;
+   margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+    
+     
+
+   }
+   .figure{
+       margin-left: 15%;
+       margin-right: 15%;
+       box-sizing: border-box;
+
+   }
+
+#navbar{
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px 0px 0px;
+    
+}
+#log{
+    padding-left: 100px;
+   
+
+}
+
+body {
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #e0e0e0;
+  }
+  
+.hotel{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    padding: 4%;
+   
+    
+}
+.hotel1,.hotel2,.hotel3{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    padding: 4%;
+   
+   
+    
+
+}
+
+#footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: rosybrown;
+}
+.social-media-icons {
+    height: 20px;
+    width: 22px;
+}
+.social-media-icon1{
+    height: 20px;
+    width: 22px;
+}
+.social-media-icon2{
+    height: 20px;
+    width: 22px;
+}
+
+
