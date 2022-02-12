@@ -1,0 +1,22 @@
+.wraper{
+    width: max-content;
+    height: max-content;
+    border: 3px solid #ccc;
+    margin: 0px;
+}
+.navbar{
+    height: 60px;
+    width: 60px;
+}
+#header{height: 0;
+
+}
+.image1,.image2,.image3{
+    height: 250px;
+    width: 250px;
+} 
+.social-media-icon,.social-media-icon1,.social-media-icon2{
+    width: 22px;
+    height: 20px;
+}
+  
